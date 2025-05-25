@@ -3,8 +3,8 @@ title: "Practical 1"
 author: "Bushra Tabassum"
 date: "25-05-25"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -449,7 +449,7 @@ paste("Random Forest Area under ROC Curve: ",
       round(auc(test$NoShow.numerical, rf.probs[,2]), 3), sep = "")
 ```
 
-##The Random Forest model was fitted using the caret package. It achieved an AUC of 0.723, slightly lower than XGBoost (0.743).
+##The Random Forest model was fitted using the caret package. It achieved an AUC of 0.72, slightly lower than XGBoost (0.743).
 
 **18** Based on everything, do you think we can trust analyses based on this dataset? Explain your reasoning.
 
