@@ -9,10 +9,10 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(readr)
-setwd("~/Desktop/Assignment Health Data Science")
+setwd("/Users/bushra/Desktop/Health-Data-Science")
 ```
 ```{r}
-read_csv("~/Desktop/Assignment Health Data Science/2016_05v2_VitoriaAppointmentData.csv", 
+read_csv("2016_05v2_VitoriaAppointmentData.csv", 
          col_types = "fffTTifllllflf")
 ```
 ```{r}
